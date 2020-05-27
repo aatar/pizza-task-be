@@ -39,20 +39,26 @@ The following instructions will set the development environment in your local ma
 	```
 
 
-6. Run the migrations for development and testing:
+6. Install node modules:
+    ```
+	$ npm install
+	```
+
+
+7. Run the migrations for development and testing:
 	```
 	$ npm run migrations
     $ npm run migrations-test
 	```
 
 
-7. Start the server:
+8. Start the server:
 	```
 	$ npm start
 	```
 
 
-8. You can also run the tests:
+9. You can also run the tests:
 	```
 	$ npm test
 	```
